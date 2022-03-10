@@ -19,19 +19,19 @@ const Footer = () => {
             <div className="col-3 col-md-6">
                 <h3 className="footer-head">my account</h3>
                 <ul className="menu">
-                    <li><Link href="/profile"><a>Profile</a></Link></li>
+                    <li><Link href="/profile" passHref><a>Profile</a></Link></li>
                     <li><Link href="#"><a>Notifications</a></Link></li>
-                    <li><Link href="/order"><a>Orders History</a></Link></li>
-                    <li><Link href="/address"><a>Manage Address</a></Link></li>
+                    <li><Link href="/order" passHref><a>Orders History</a></Link></li>
+                    <li><Link href="/address" passHref><a>Manage Address</a></Link></li>
                 </ul>
             </div>
             <div className="col-3 col-md-6">
                 <h3 className="footer-head">about us</h3>
                 <ul className="menu">
-                    <li><Link href="/about"><a>About</a></Link></li>
-                    <li><Link href="/contact"><a>Contact</a></Link></li>
-                    <li><Link href="/privacy-policy"><a>Privacy Policy</a></Link></li>
-                    <li><Link href="/terms-and-conditions"><a>Terms and Conditions</a></Link></li>
+                    <li><Link href="/about" passHref><a>About</a></Link></li>
+                    <li><Link href="/contact" passHref><a>Contact</a></Link></li>
+                    <li><Link href="/privacy-policy" passHref><a>Privacy Policy</a></Link></li>
+                    <li><Link href="/terms-and-conditions" passHref><a>Terms and Conditions</a></Link></li>
                 </ul>
             </div>
             <div className="col-3 col-md-6 col-sm-12">
