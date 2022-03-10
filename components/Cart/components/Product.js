@@ -58,7 +58,7 @@ const Product = ({ inWishList, setTotalProducts }) => {
                     </div>
                     <div className="d-flex align-items-center">
                         <button className="btn-flat btn-hover btn-cart-add">
-                        <Link href="/product/2">
+                        <Link href="/product/2" passHref>
                             <i className='bi bi-eye'></i>
                         </Link>
                         </button>

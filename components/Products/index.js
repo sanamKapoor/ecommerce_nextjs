@@ -8,7 +8,7 @@ const Products = ({ title }) => {
     <div className="container">
         <Heading heading={title} />
         <span className='d-flex justify-content-end'>
-            <Link href="/products">
+            <Link href="/products" passHref>
                 <a className='pointer text-decoration-underline'>View More</a>            
             </Link>
         </span>
@@ -27,7 +27,7 @@ const Products = ({ title }) => {
             </div>
         </div>
         {/* <div className="section-footer">
-            <Link href="/"><a className="btn-flat btn-hover">view all</a></Link>
+            <Link href="/" passHref><a className="btn-flat btn-hover">view all</a></Link>
         </div> */}
     </div>
     </div>

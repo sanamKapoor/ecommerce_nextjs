@@ -16,7 +16,7 @@ const Slide = ({ banner, active }) => {
             <p className="sp-item-description">
                 {banner.description}
             </p>
-            <Link href="/product/2">
+            <Link href="/product/2" passHref>
                 <button className="btn-flat btn-hover">shop now</button>
             </Link>
         </div>

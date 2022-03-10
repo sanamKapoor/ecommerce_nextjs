@@ -13,7 +13,7 @@ const Promotion = () => {
         <Element />
     </div>
     <div className="text-center mt-4">
-      <Link href="/products">
+      <Link href="/products" passHref>
       <button className="btn-flat-2 btn-hover-2">view more</button>      
       </Link>
     </div>

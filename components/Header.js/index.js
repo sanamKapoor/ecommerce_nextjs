@@ -17,7 +17,7 @@ const Header = () => {
         </span>
         <div className="bg-main">
             <div className="mid-header container">
-                <Link href="/"><a className="logo">Auto&Electro</a></Link>
+                <Link href="/" passHref><a className="logo">Auto&Electro</a></Link>
                 <div className="search">
                     <input type="text" placeholder="Search" onKeyPress={e => {
                         if(e.key === 'Enter'){
@@ -28,9 +28,9 @@ const Header = () => {
                 </div>
                 <ul className="user-menu">
                     {/* <li><a href="#"><i className='bi bi-bell'></i></a></li> */}
-                    <li><Link href="/wishlist"><a><i className='bi bi-heart'></i></a></Link></li>
-                    <li><Link href="/cart"><a><i className='bi bi-cart3'></i></a></Link></li>
-                    <li><Link href="/profile"><a><i className='bi bi-person-circle'></i></a></Link></li>
+                    <li><Link href="/wishlist" passHref><a><i className='bi bi-heart'></i></a></Link></li>
+                    <li><Link href="/cart" passHref><a><i className='bi bi-cart3'></i></a></Link></li>
+                    <li><Link href="/profile" passHref><a><i className='bi bi-person-circle'></i></a></Link></li>
                 </ul>
             </div>
         </div>

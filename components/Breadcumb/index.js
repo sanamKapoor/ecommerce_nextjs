@@ -3,9 +3,9 @@ import Link from 'next/link';
 const Breadcumb = () => {
   return (
     <div className="breadcumb">
-        <Link href="/">home</Link>
+        <Link href="/" passHref>home</Link>
         <span><i className="bi bi-chevron-double-right"></i></span>
-        <Link href="/">all products</Link>
+        <Link href="/" passHref>all products</Link>
     </div>
   );
 };

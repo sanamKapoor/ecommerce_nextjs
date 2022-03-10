@@ -5,9 +5,9 @@ const CategoryHeader = () => {
     <div className="bg-second">
     <div className="bottom-header container">
         <ul className="main-menu mt-3">
-            <li><Link href="/"><a>home</a></Link></li>
+            <li><Link href="/" passHref><a>home</a></Link></li>
             <li className="mega-dropdown">
-                <Link href="/">
+                <Link href="/" passHref>
                     <a>category</a>
                 </Link>
                 <div className="mega-content">
@@ -63,7 +63,7 @@ const CategoryHeader = () => {
                 </div>
             </li>
             <li className="mega-dropdown">
-                <Link href="/">
+                <Link href="/" passHref>
                     <a>sub category</a>
                 </Link>
                 <div className="mega-content">
@@ -118,7 +118,7 @@ const CategoryHeader = () => {
                     </div>
                 </div>
             </li>
-            <li><Link href="/products"><a>browse</a></Link></li>
+            <li><Link href="/products" passHref><a>browse</a></Link></li>
         </ul>
     </div>
     </div>

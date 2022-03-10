@@ -16,7 +16,7 @@ const Slide = ({ banner, active }) => {
                 {banner.description}
             </p>
             <div className="top-down trans-delay-0-6">
-            <Link href="/auth/login">
+            <Link href="/auth/login" passHref>
                 <button className="btn-flat btn-hover">
                     <span>login</span>
                 </button>

@@ -14,7 +14,7 @@ const Address = () => {
                 <ExistingAddress setShowAdd={setShowAdd} />
                 :
                 <div className="text-center py-4" id="latest-products">
-                    <Link href="/address?order=2">
+                    <Link href="/address?order=2" passHref>
                         <span onClick={() => setShowAdd(true)} className="pointer text-decoration-underline">Choose Address</span>                    
                     </Link>
                 </div>

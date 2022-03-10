@@ -17,7 +17,7 @@ const Checkout = () => {
                 <h6>Total</h6>
                 <h6>$55</h6>
             </div>
-            <Link href="/checkout">
+            <Link href="/checkout" passHref>
                 <button className="w-100 mt-3 btn-flat btn-hover">Proceed to checkout</button>            
             </Link>
         </div>

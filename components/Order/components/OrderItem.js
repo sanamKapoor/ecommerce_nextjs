@@ -53,7 +53,7 @@ const OrderItem = () => {
                     </div>
                     </div>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <Link href="/product/2">
+                        <Link href="/product/2" passHref>
                             <button className="btn-flat btn-hover btn-cart-add">
                                 <i className='bi bi-chevron-right'></i>
                             </button>

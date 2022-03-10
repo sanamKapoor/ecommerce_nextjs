@@ -7,7 +7,7 @@ const Element = () => {
     <div className="promotion-box">
         <div className="text">
             <h3>Headphone & Earbuds</h3>
-            <Link href="/product/2">
+            <Link href="/product/2" passHref>
               <button className="btn-flat btn-hover"><span>shop now</span></button>
             </Link>
         </div>
