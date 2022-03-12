@@ -2,9 +2,9 @@ import Head from "next/head";
 import Header from "../../components/Header.js";
 import Footer from "../../components/Footer";
 import Heading from "../../components/Global/Heading";
-import ReturnDetail from "../../components/Return/index.js";
+import ReturnDetail from "../../components/Return/index";
 
-const index = () => {
+const Index = () => {
     return(
         <div>
             <Head>
@@ -22,4 +22,4 @@ const index = () => {
     )
 }
 
-export default index;
+export default Index;
