@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "../../components/Header.js";
 import Footer from "../../components/Footer";
 import Heading from "../../components/Global/Heading";
-import ReturnDetail from "../../components/return/index.js";
+import ReturnDetail from "../../components/Return/index.js";
 
 const index = () => {
     return(
