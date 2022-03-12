@@ -1,7 +1,7 @@
 import React from 'react';
 import OrderAddress from '../Order/components/OrderAddress';
 import OrderItem from '../Order/components/OrderItem';
-import ReturnReason from './components/reason';
+import ReturnReason from './components/Reason';
 
 const ReturnDetail = () => {
   return (
