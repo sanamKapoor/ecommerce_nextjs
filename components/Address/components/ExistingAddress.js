@@ -20,7 +20,7 @@ const ExistingAddress = ({ setTotalAddress, setShowAdd }) => {
                 <p className='d-flex justify-content-between align-items-center'>
                     <span>India, 133101</span>
                     <span className='d-flex'>
-                        <Link href={setShowAdd ? "/address?order=2" : "/address"}>                        
+                        <Link href={setShowAdd ? "/address?order=2" : "/address"} passHref>                        
                         <button className="btn-flat btn-hover btn-cart-add mx-1">
                             <i className="bi bi-pencil"></i>
                         </button>

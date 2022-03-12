@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Checkout from "../Cart/components/checkout";
-import Product from "../Cart/components/product";
+import Checkout from "../Cart/components/Checkout";
+import Product from "../Cart/components/Product";
 import Address from "./components/Address";
 
 const CheckOut = () => {
