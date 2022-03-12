@@ -10,7 +10,6 @@ const imgs = [
 
 const Images = ({ offset }) => {
   
-    console.log(offset);
     const [img, setImg] = useState("/images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png");
 
     return (
