@@ -11,7 +11,7 @@ const OrderDetail = () => {
             <div className="col-5">
                 <OrderAddress />
                 <OrderStatus />
-                <Link href="/return/4" passHref>
+                <Link href="/return" passHref>
                     <button className='btn-flat btn-hover w-100 mt-4'>Return</button>
                 </Link>
             </div>
