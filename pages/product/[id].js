@@ -6,7 +6,7 @@ import Images from "../../components/Detail/components/Images";
 import Review from "../../components/Detail/components/Review";
 import Breadcumb from "../../components/Breadcumb";
 import Footer from "../../components/Footer";
-import Header from "../../components/Header.js";
+import Header from "../../components/Header/index.js";
 import Pagination from "../../components/Pagination";
 import Product from "../../components/Products/components/Product";
 import FAQs from "../../components/FAQs";
