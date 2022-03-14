@@ -1,7 +1,7 @@
 import React from 'react';
 import OrderAddress from '../Order/components/OrderAddress';
 import OrderItem from '../Order/components/OrderItem';
-import ReturnReason from './components/Reason';
+import Reason from './components/Reason';
 
 const ReturnDetail = () => {
   return (
@@ -9,7 +9,7 @@ const ReturnDetail = () => {
         <div className="row">
             <div className="col-5">
                 <OrderAddress />
-                <ReturnReason />
+                <Reason />
             </div>
             <div className="col-7">
                 <div className='p-4 border shadow-sm rounded'>
