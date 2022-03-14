@@ -5,7 +5,7 @@ import Breadcumb from '../../Breadcumb';
 const imgs = [
     "/images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png",
     "/images/JBL-Endurance-Sprint_Alt_Red-1605x1605px.webp",
-    "/images/JBL_Quantum_400_Product Image_Hero 02.png"
+    "/images/JBL_Quantum_400_Product_Image_Hero_02.png"
 ]
 
 const Images = ({ offset }) => {

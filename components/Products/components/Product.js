@@ -5,7 +5,7 @@ const Product = ({ inWishList = false, setTotalProducts }) => {
   return (
         <div className="product-card">
             <div className="product-card-img">
-                <Image src="/images/JBL_Quantum_400_Product Image_Hero 02.png" alt="" height={250} width={250} />
+                <Image src="/images/JBL_Quantum_400_Product_Image_Hero_02.png" alt="" height={250} width={250} />
             </div>
             <div className="product-card-info">
                 <div className="product-btn">

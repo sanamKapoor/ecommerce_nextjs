@@ -15,7 +15,7 @@ export const primaryBanner = [
         id: 3,
         title: "Ipsum dolor Three",
         description: "lorem ipsum dolor sit amet consectetur adipisicing elit. A optio, voluptatum aperiam nobis quis maxime corporis porro alias soluta sunt quae consectetur aliquid blanditiis perspiciatis labore cumque, ullam, quam eligendi!",
-        image: "/images/JBL_JR 310BT_Product Image_Detail_Skyblue.png"
+        image: "/images/JBL_JR_310BT_Product_Image_Detail_Skyblue.png"
     },
     {
         id: 4,
