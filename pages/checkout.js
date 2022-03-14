@@ -2,7 +2,7 @@ import Head from "next/head";
 import CheckOut from "../components/Checkout";
 import Footer from "../components/Footer";
 import Heading from "../components/Global/Heading";
-import Header from "../components/Header.js";
+import Header from "../components/Header";
 
 const checkout = () => {
   return (    

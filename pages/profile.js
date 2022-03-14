@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Footer from "../components/Footer";
-import Header from "../components/Header.js";
+import Header from "../components/Header";
 
 const profile = () => {
   return (

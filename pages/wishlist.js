@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState } from "react";
 import Footer from "../components/Footer";
 import Heading from "../components/Global/Heading";
-import Header from "../components/Header.js";
+import Header from "../components/Header";
 import Pagination from "../components/Pagination";
 import Product from "../components/Products/components/Product";
 

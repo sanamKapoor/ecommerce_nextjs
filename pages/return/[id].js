@@ -1,20 +1,20 @@
 import Head from "next/head";
-import Header from "../../components/Header";
+import Header from "../../components/Header/index.js";
 import Footer from "../../components/Footer";
 import Heading from "../../components/Global/Heading";
-import Order from "../../components/Order/index.js";
+import ReturnDetail from "../../components/Return";
 
-const order = () => {
+const Index = () => {
     return(
         <div>
             <Head>
-            <title>Auto & Electro</title>
-            </Head>
+                <title>Auto & Electro</title>
+            </Head> 
             <div>
             <Header />
                 <div className="container my-5">
-                    <Heading heading="orders" />
-                    <Order />
+                    <Heading heading="return order" />
+                    <ReturnDetail />
                 </div>
             <Footer />
             </div>
@@ -22,4 +22,4 @@ const order = () => {
     )
 }
 
-export default order;
+export default Index;

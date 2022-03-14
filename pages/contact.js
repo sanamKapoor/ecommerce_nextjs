@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Heading from "../components/Global/Heading";
-import Header from "../components/Header.js";
+import Header from "../components/Header";
 
 const contact = () => {
   return (    

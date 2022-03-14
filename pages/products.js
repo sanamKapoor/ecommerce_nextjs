@@ -2,7 +2,7 @@ import Head from "next/head";
 import Breadcumb from "../components/Breadcumb";
 import Filter from "../components/Filter";
 import Footer from "../components/Footer";
-import Header from "../components/Header.js";
+import Header from "../components/Header";
 import Pagination from "../components/Pagination";
 import Product from "../components/Products/components/Product";
 
