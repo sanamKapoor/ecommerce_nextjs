@@ -20,7 +20,7 @@ const Footer = () => {
                 <h3 className="footer-head">my account</h3>
                 <ul className="menu">
                     <li><Link href="/profile" passHref><a>Profile</a></Link></li>
-                    <li><Link href="#"><a>Notifications</a></Link></li>
+                    <li><Link href="/change-password"><a>Change Password</a></Link></li>
                     <li><Link href="/order" passHref><a>Orders History</a></Link></li>
                     <li><Link href="/address" passHref><a>Manage Address</a></Link></li>
                 </ul>

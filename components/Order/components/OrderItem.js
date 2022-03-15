@@ -7,7 +7,7 @@ const OrderItem = () => {
         <div className="card mb-3">
             <div className="row">
                 <div className="col-4 d-flex flex-column align-items-center justify-content-center">
-                    <Image src="/images/JBL_Quantum_400_Product Image_Hero 02.png" alt="" height={250} width={250} />
+                    <Image src="/images/JBL_Quantum_400_Product_Image_Hero_02.png" alt="" height={250} width={250} />
                 </div>
                 <div className="col-8 product-info d-flex align-items-center justify-content-around">
                     <div>

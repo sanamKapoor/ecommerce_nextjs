@@ -10,7 +10,7 @@ const Product = ({ inWishList, setTotalProducts }) => {
         <div className="card mb-3">
             <div className="row">
                 <div className="col-4 d-flex flex-column align-items-center">
-                    <Image src="/images/JBL_Quantum_400_Product Image_Hero 02.png" alt="" height={250} width={250} />
+                    <Image src="/images/JBL_Quantum_400_Product_Image_Hero_02.png" alt="" height={250} width={250} />
                     <div className="product-quantity-wrapper">
                             <span className="product-quantity-btn" onClick={() => {
                                 if(count > 1){
