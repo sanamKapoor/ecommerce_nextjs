@@ -19,6 +19,9 @@ const ChangePassword = () => {
                 <form className="form py-5 w-75 mx-auto">
                     <div className="row">
                         <div className="col-12">
+                            <input type="password" placeholder="Old Password" className="mt-2 form-control" />
+                        </div>
+                        <div className="col-12">
                             <input type="password" placeholder="New Password" className="mt-2 form-control" />
                         </div>
                         <div className="col-12">
